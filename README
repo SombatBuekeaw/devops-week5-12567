@@ -1,0 +1,12 @@
+1.Docker build
+- docker build -t sombat/html-app-boostrtap5:1.0.0 .
+- or docker builb -t sombat/html-app-boostrtap5:latest
+2.Docker image
+- docker images
+- docker rmi <image id>
+3.Inspect Containers
+- docker ps -a
+4.Docker run
+- docker run --restart=always -d --name sombat_html_app_boostrtap5 -p 80:80 sombat/html-app-boostrtap5:1.0.0
+5.Open url
+- http://IP:80
